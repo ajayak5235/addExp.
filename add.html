@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+        <form id="expense-form">
+            <label for="">Choose expenseamount:</label>
+            <input type="number" id="Choose-expenseamount:" placeholder="Amount">
+            <label for="">Choose-description:</label>
+            <input type="text" id="Choose-description:" placeholder=" Enter Description">
+            <label for="">Choose a Category:</label>
+            <select name="Choose a Category:" id="Category">
+              <option value="fuel">fuel</option>
+              <option value="On vacation">On vacation</option>
+              <option value="food">food</option>
+              <option value="electricity">electricity</option>
+            </select>
+            <button type="submit">Add Expense</button>
+        </form>
+        <div id="expense-list">
+            <!-- Expenses will be displayed here -->
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
